@@ -211,3 +211,13 @@ p{
     cursor: pointer;
 }
 
+/* get resume */
+.btn-dark{
+    position: fixed;
+    bottom: 6px;
+    left: 53%;
+    margin-left: -104.5px; /*104.5px is half of the button's width*/
+}
+.get_Resume{
+  height:1000px;
+}

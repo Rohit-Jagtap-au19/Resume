@@ -208,5 +208,6 @@ p{
     color:#333;
     padding:.3em .5em;
     text-decoration:none; 
+    cursor: pointer;
 }
 

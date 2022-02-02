@@ -212,22 +212,41 @@ p{
 }
 
 /* get resume */
-.btn-dark{
+.download{
     position: fixed;
     bottom: 6px;
     left: 53%;
+    border-radius: 90px
     margin-left: -104.5px; /*104.5px is half of the button's width*/
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    border
 }
+
+.download:hover {
+    background-color: RoyalBlue;
+  }
+  
 .get_Resume{
   height:1000px;
 }
 
-.btn{
-    margin-bottom: 5px;
-}
 @media only screen 
-   and (min-width : 320px) {
+   and (max-width : 415px) {
+
    .btn{
        margin-bottom: 5px;
    }
+
+   .download{
+       background-color: dodgerblue;
+       color: white;
+       border: none;
+   }
+
+   .download:hover {
+    background-color: RoyalBlue;
+  }
+
 }

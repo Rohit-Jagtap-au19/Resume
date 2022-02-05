@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background: lightblue;
+    /* background: lightblue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body{
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    margin: 50px;
+    margin: 50px; /* to remove margin from Top*/
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -179,7 +179,7 @@ p{
 .about .box{
     display: flex;
     flex-direction: row;
-    margin: 30px 0;
+    margin: 30px 0;  /* remove spaces between */
 }
 .about .box .year_company{
     min-width: 150px;

@@ -16,7 +16,7 @@ body{
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    margin: 50px; /* to remove margin from Top*/
+    margin: 0px; /* to remove margin from Top*/
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
